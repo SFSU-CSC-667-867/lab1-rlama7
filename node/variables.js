@@ -1,3 +1,4 @@
+//jshint esversion:6
 // there are 3 basic ways to declare variables in js
 
 // Var, but don't use this one anymore
@@ -19,8 +20,22 @@ obj.a = 9;
 
 // For Practice
 
+
 // declare an object with an object as a property
+const testVar = {
+  y: {
+    a: 'Hello',
+    b: 4,
+    c: 7,
+  },
+};
+
+console.log(testVar);
 
 // delete a property
+delete testVar.y;
+console.log(testVar);
 
 // change a property
+testVar.a = 'Happy Programming!';
+console.log(testVar);

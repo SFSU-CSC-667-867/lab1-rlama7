@@ -5,16 +5,20 @@
 </head>
 
 <body>
-  Open the console to see output
+  <h1>Open the console to see output</h1>
+
+
+
+  <!-- Custom Javascript -->
   <script>
     const doSomethingAsync = (callback) => {
       setTimeout(callback, 2000);
-    }
+    };
 
     doSomethingAsync(() => {
       alert('This happens after 2 seconds');
     });
+    console.log('Hello World!');
   </script>
 </body>
-
 </html>
