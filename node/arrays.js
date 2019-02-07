@@ -1,3 +1,4 @@
+// jshint esversion:6
 // Arrays in js
 
 // arrays can be delared explicitly
@@ -11,6 +12,8 @@ console.log(array[0]);
 
 // change elements
 array[1] = 'hello';
+
+console.log('Hello World');
 
 // for practice
 
