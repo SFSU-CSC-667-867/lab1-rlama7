@@ -8,7 +8,7 @@ const promiseExample = () => {
 
 promiseExample()
   .then((res) => res + 'World')
-  .then((res) => console.log(res))
+  .then((res) => console.log(v))
   .catch((e) => console.log('I am an error; ('));
 
 console.log('hi');
